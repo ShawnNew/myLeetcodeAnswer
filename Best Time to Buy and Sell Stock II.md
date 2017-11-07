@@ -12,8 +12,6 @@ class Solution {
             if (prices[i] > prices[i - 1]) {
                 max += prices[i] - prices[i - 1];
             }
-            
-        
         }
         return max;
     }
