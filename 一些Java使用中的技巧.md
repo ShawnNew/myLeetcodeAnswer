@@ -10,15 +10,11 @@ for (int e : nums) {
 </code></pre>
 
 * 合并数组：可以使用arraycopy。
-
 <code>System.arraycopy(Object src, int srcPos, Object dest, int destPos, int length);</code>
 
 * HashMap和HashSet的使用方法：
 	1. 定义：<code>HashMap hm = new HashMap();</code>
 	2. 方法：
-		
 		<code>hm.add(a, b);</code>
-		
 		<code>hm.containsKey(someKey);</code>
-		
 		<code>hm.remove(someKey);</code>
