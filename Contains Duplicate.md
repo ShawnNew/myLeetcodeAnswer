@@ -45,8 +45,6 @@ class Solution {
                 res = true;
             }
         }
-        
-        
         return res;
     }
 }
