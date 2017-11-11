@@ -18,3 +18,5 @@ for (int e : nums) {
 		<code>hm.add(a, b);</code>
 		<code>hm.containsKey(someKey);</code>
 		<code>hm.remove(someKey);</code>
+		
+* 定义long型最大和最小值：Long.MAX_VALUE, Long.MIN_VALUE。
