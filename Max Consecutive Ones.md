@@ -19,8 +19,8 @@ Explanation: The first two digits or the last three digits are consecutive 1s.
 <pre><code>
 class Solution {
     public int findMaxConsecutiveOnes(int[] nums) {
-        int res = 0;
-        int count = 0;
+        int res = 0;    //结果变量，存储返回值
+        int count = 0;  //计数器，数组中遇零时置零
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] == 0) {          
                 res = res > count ? res : count;
