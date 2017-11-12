@@ -14,10 +14,12 @@ for (int e : nums) {
 
 * HashMap和HashSet的使用方法：
 	1. 定义：<code>HashMap hm = new HashMap();</code>
-	2. 方法：
-		<code>hm.add(a, b);</code>
+	2. 方法:
+		<code>hm.put(a, b);</code>
 		<code>hm.containsKey(someKey);</code>
 		<code>hm.remove(someKey);</code>
+	
+	3. hashmap用put的方法增加元素，hashset用add的方法增加元素。 
 		
 * 定义long型最大和最小值：Long.MAX_VALUE, Long.MIN_VALUE。
 * ArrayList是实现List接口的动态数组，即数组的大小可变，相对于传统数组的长度不变。一些方法如下：
