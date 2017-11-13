@@ -6,16 +6,16 @@ Given an array of integers and an integer k, you need to find the number of uniq
 class Solution {
     public int findPairs(int[] nums, int k) {
         
-        if (nums == null || nums.length == 0 || k < 0) {
+        if (nums == null || nums.length == 0 || k < 0) { //特殊情况：数组为空或者长度为零
             return 0;
         }
-        HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
+        HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();   //定义HashMap，将数组的元素存入其中
         
         int res = 0;
-        for (int i = 0; i < nums.length; i++) {
+        for (int i = 0; i < nums.length; i++) {  //存数
             map.put(nums[i], i);
         }
-        for (int i = 0; i < nums.length; i++) {
+        for (int i = 0; i < nums.length; i++) {  //找到满足条件的元素，返回值加一
             if (map.containsKey(nums[i] + k) && map.get(nums[i] + k) != i) {  
                 map.remove(nums[i] + k);  
                 res++;  
