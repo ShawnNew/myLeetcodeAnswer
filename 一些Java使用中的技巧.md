@@ -6,6 +6,7 @@ list.add("abcdefg");
 list.add("helloworld");
 list.add(100); //会出错，因为在定义list变量的时候定义了型参<String>
 </code></pre></p>
+
 ***
 
 * 循环数组：可以直接对于数组中的元素进行循环遍历，可以不用重新定义索引来循环数组。
