@@ -1,6 +1,6 @@
 ## 一些Java使用中的技巧
 
-* 泛型：<p>泛型是指<em>“参数化类型”</em>。参数，在定义方法是有形参，然后调用此方法时传递实参。参数化类型就是将具体类型参数化（类型参数），在使用时传入具体的类型（类型实参）。<pre><code>
+* <strong>泛型：</strong><p>泛型是指<em>“参数化类型”</em>。参数，在定义方法是有形参，然后调用此方法时传递实参。参数化类型就是将具体类型参数化（类型参数），在使用时传入具体的类型（类型实参）。<pre><code>
 List<String> list = new ArrayList<String>();
 list.add("abcdefg");
 list.add("helloworld");
@@ -9,7 +9,7 @@ list.add(100); //会出错，因为在定义list变量的时候定义了型参<S
 
 ***
 
-* 循环数组：可以直接对于数组中的元素进行循环遍历，可以不用重新定义索引来循环数组。
+* <strong>循环数组：</strong>可以直接对于数组中的元素进行循环遍历，可以不用重新定义索引来循环数组。
 <pre><code>
 int[] nums = {1,2,3};
 for (int e : nums) {
@@ -19,12 +19,12 @@ for (int e : nums) {
 
 ***
 
-* 合并数组：可以使用arraycopy。
+* <strong>合并数组：</strong>可以使用arraycopy。
 <code>System.arraycopy(Object src, int srcPos, Object dest, int destPos, int length);</code>
 
 ***
 
-* HashMap和HashSet的使用方法：
+* <strong>HashMap和HashSet的使用方法：</strong>
 	1. 定义：<code>HashMap hm = new HashMap();</code>
 	2. 方法:
 		<code>hm.put(a, b);</code>
@@ -35,11 +35,11 @@ for (int e : nums) {
 
 ***
 	
-* 定义long型最大和最小值：Long.MAX_VALUE, Long.MIN_VALUE。
+* <strong>定义long型最大和最小值：</strong>Long.MAX_VALUE, Long.MIN_VALUE。
 
 ***
 
-* ArrayList是实现List接口的动态数组，即数组的大小可变，相对于传统数组的长度不变。一些方法如下：
+* <strong>ArrayList</strong>是实现List接口的动态数组，即数组的大小可变，相对于传统数组的长度不变。一些方法如下：
 	1. List arraylist = new ArrayList();     //构造函数
 	2. arraylist.add();      //新增元素
 	3. arraylist.addAll(Collection <? extends E> c); //按照指定collection的迭代器返回元素顺序，将collection中的所有元素添加到此列表的尾部。
@@ -50,7 +50,7 @@ for (int e : nums) {
 
 ***
 	
-* HashMap的遍历：
+* <strong>HashMap的遍历：</strong>
 	1. 方法一：在for-each循环中使用entries来遍历（在键值都需要使用时）
 	<pre><code>Map<Integer, Integer> map = new HashMap<Integer, Integer>();
 	for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
@@ -78,9 +78,9 @@ for (int e : nums) {
 	</code></pre>
 	
 ***
-* 排序：
+* <strong>排序：</strong>
 	1. 对数组进行排序：<code><em>Array.sort(int[] nums);</em></code>
 	2. 对集合排序：<code><em>Collections.sort(list);</em></code>
 
 ***
-* 复制数组：<code>int[] temp = nums.clone();</code>直接在数组对象上使用clone()方法即可。
+* <strong>复制数组：</strong><code>int[] temp = nums.clone();</code>直接在数组对象上使用clone()方法即可。
