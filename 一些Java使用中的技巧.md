@@ -83,7 +83,4 @@ for (int e : nums) {
 	2. 对集合排序：<code><em>Collections.sort(list);</em></code>
 
 ***
-* 复制数组：
-<code>
-int[] temp = nums.clone();
-</code>直接在数组对象上使用clone()方法即可。
+* 复制数组：<code>int[] temp = nums.clone();</code>直接在数组对象上使用clone()方法即可。
