@@ -84,3 +84,7 @@ for (int e : nums) {
 
 ***
 * <strong>复制数组：</strong><code>int[] temp = nums.clone();</code>直接在数组对象上使用clone()方法即可。
+
+***
+
+* <strong>遍历数组时需要前后位比较：</strong>当遍历数组的时候，需要使用到前后位比较的情况，如果直接在遍历的过程中查看i+1或者i-1会超出数组索引。因此引用prev或者next变量来记录遍历元素的前后位。
