@@ -79,7 +79,7 @@ for (int e : nums) {
 	
 ***
 * <strong>排序：</strong>
-	1. 对数组进行排序：<code><em>Array.sort(int[] nums);</em></code>
+	1. 对数组进行排序：<code><em>Arrays.sort(int[] nums);</em></code>
 	2. 对集合排序：<code><em>Collections.sort(list);</em></code>
 
 ***
