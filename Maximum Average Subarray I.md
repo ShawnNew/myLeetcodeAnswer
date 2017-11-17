@@ -14,6 +14,42 @@ Given an array consisting of n integers, find the contiguous subarray of given l
 * 1 <= k <= n <= 30,000.
 * Elements of the given array will be in the range [-10,000, 10,000].
 
+
+### 原始写法：
+
+<pre><code>
+class Solution {
+    public double findMaxAverage(int[] nums, int k) {
+        int sum = 0;
+        int maxSum = Integer.MIN_VALUE;
+        if (nums.length == k) {   //数组的长度等于k时，直接相加
+            for (int i = 0; i < k; i++) {
+                sum += nums[i];
+            }
+            maxSum = sum;
+        } else {    //数组的长度不等于k时
+            for (int i = 0; i < nums.length - k + 1; i++) {   //重新累加k个元素，更新最大maxSum
+                sum = 0;
+                for (int j = 0; j < k; j++) {
+                    sum += nums[i + j];
+                }
+                maxSum = Math.max(sum, maxSum);
+            }
+            
+        }
+        return ((double) maxSum) / ((double) k);  //输出最大均值
+        
+    }
+}
+</code></pre>
+
+***
+* 原始写法操作数比较多，在对数组遍历的时候，每次都要进行k次加法操作。可以固定窗的大小，在遍历的过程中只是对窗口两端元素进行操作，节省操作数。
+* <strong><em>注意在最后返回值的时候的强制类型转换，maxSum和k都要转换成double类型之后再相除。
+</em></strong>
+
+***
+### 优化写法（每次只操作窗口的两端元素，不用重新累加，节省操作数）：
 <pre><code>
 class Solution {
     public double findMaxAverage(int[] nums, int k) {
