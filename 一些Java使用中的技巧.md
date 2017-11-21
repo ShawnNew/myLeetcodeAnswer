@@ -1,10 +1,10 @@
 ## 一些Java使用中的技巧
 
 * <strong>泛型：</strong><p>泛型是指<em>“参数化类型”</em>。参数，在定义方法是有形参，然后调用此方法时传递实参。参数化类型就是将具体类型参数化（类型参数），在使用时传入具体的类型（类型实参）。<pre><code>
-List<String> list = new ArrayList<String>();
+List< String > list = new ArrayList< String >();
 list.add("abcdefg");
 list.add("helloworld");
-list.add(100); //会出错，因为在定义list变量的时候定义了型参<String>
+list.add(100); //会出错，因为在定义list变量的时候定义了型参< String > 
 </code></pre></p>
 
 ***
@@ -52,8 +52,8 @@ for (int e : nums) {
 	
 * <strong>HashMap的遍历：</strong>
 	1. 方法一：在for-each循环中使用entries来遍历（在键值都需要使用时）
-	<pre><code>Map<Integer, Integer> map = new HashMap<Integer, Integer>();
-	for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
+	<pre><code>Map< Integer, Integer > map = new HashMap< Integer, Integer >();
+	for (Map.Entry< Integer, Integer > entry : map.entrySet()) {
 			System.out.println("Key= " + entry.getKey() + ", Value=" + entry.getValue());
 	}
 	</code></pre>
@@ -70,9 +70,9 @@ for (int e : nums) {
 	</code></pre>
 	3. 方法三：使用Iterator遍历：
 	<pre><code>
-	Iterator< Map.Entry < Integer, Integer>> entries = map.entrySet().iterator();
+	Iterator< Map.Entry < Integer, Integer >> entries = map.entrySet().iterator();
 	while (entries.hasNext()) {
-			Map.Entry<Integer, Integer> entry = entries.next();
+			Map.Entry< Integer, Integer > entry = entries.next();
 			System.out.println("Key = " + entry.getKey() + ", Value = " + entry.getValue());
 	}
 	</code></pre>
