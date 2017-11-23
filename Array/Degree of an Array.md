@@ -41,10 +41,10 @@ class Solution {
         int maxDegree = 0;
         int res = 0;
         for (Integer[] values : hm.values()) {
-            if (values[0] > maxDegree) {
+            if (values[0] > maxDegree) { //当前元素的度大于最大度则更改最大度和更新最小长度
                 maxDegree = values[0];
                 res = values[2] - values[1] + 1; 
-            } else if (values[0] == maxDegree) {
+            } else if (values[0] == maxDegree) {  //当前元素的度等于最大度，则比较最小长度并更新
                 res = Math.min(values[2] - values[1] + 1, res);
             }
         }
