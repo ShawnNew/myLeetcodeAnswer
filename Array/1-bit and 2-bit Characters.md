@@ -47,3 +47,24 @@ class Solution {
 ***
 * 该题的解题思路是找到数组中最后一位是两位字符的情况，如果倒数第二位能和最后一位组合成1，0则返回false。
 * 遍历数组，如果遇到1，则指针加二；如果遇到零，则指针加一。
+
+### Enhanced Code:
+<pre><code>
+class Solution {
+    public boolean isOneBitCharacter(int[] bits) {
+        int len = bits.length, pos = 0;
+        while (pos < len - 1) {
+            if (bits[pos] == 1) {
+                pos += 2;
+            } else if (bits[pos] == 0) {
+                pos += 1;
+            }
+        }
+        return pos == len - 1;
+    }
+}
+</code></pre>
+
+***
+* 改进算法的优势在于：在遍历时终止条件是判断倒数第三位元素，如果倒数第三位元素是1，则和倒数第二位可组合为两位字符的情况，指针接下来指向最后一位；如果倒数第三位元素是0，则是单字符的解码，指针接下来不会指向最后一位。
+* 在最后遍历结束时，判断指针是否指向最后一位。
