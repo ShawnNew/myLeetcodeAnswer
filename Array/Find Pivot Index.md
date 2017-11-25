@@ -22,3 +22,27 @@ There is no index that satisfies the conditions in the problem statement.</pre>
 
 * The length of nums will be in the range [0, 10000].
 * Each element nums[i] will be an integer in the range [-1000, 1000].
+
+### Code:
+<pre><code>
+class Solution {
+    public int pivotIndex(int[] nums) {
+        int len = nums.length;
+        int sum = 0, leftSum = 0;
+        
+        for (int i = 0; i < len; i++) {
+            sum += nums[i]; //数组求和
+        }
+        
+        for (int i = 0; i < len; i++) {
+            if (i != 0) leftSum += nums[i - 1];
+            if (sum - leftSum - nums[i] == leftSum) return i;
+        }
+        return -1;
+    }
+}
+</code></pre>
+
+***
+* 该题的解题思路是先求出数组的和，然后算左边的累加，如果数组和减去左边的累加等于左边的累加，则可以返回pivot。
+* 注意pivot index在第一位的情况。
