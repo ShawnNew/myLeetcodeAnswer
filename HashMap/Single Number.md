@@ -11,7 +11,7 @@ class Solution {
         Map<Integer, Integer> hm = new HashMap<Integer, Integer>();
         int res = 0;
         for (int i : nums) {
-            hm.put(i, hm.getOrDefault(c, 0) + 1);
+            hm.put(i, hm.getOrDefault(i, 0) + 1);
         }
         
         for (Map.Entry<Integer, Integer> entry : hm.entrySet()) {
