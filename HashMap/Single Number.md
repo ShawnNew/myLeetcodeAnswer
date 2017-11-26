@@ -8,13 +8,13 @@ Your algorithm should have a linear runtime complexity. Could you implement it w
 <pre><code>
 class Solution {
     public int singleNumber(int[] nums) {
-        Map<Integer, Integer> hm = new HashMap<Integer, Integer>();
+        Map< Integer, Integer > hm = new HashMap< Integer, Integer >();
         int res = 0;
         for (int i : nums) {
             hm.put(i, hm.getOrDefault(i, 0) + 1);
         }
         
-        for (Map.Entry<Integer, Integer> entry : hm.entrySet()) {
+        for (Map.Entry< Integer, Integer > entry : hm.entrySet()) {
             if (entry.getValue() == 1) {
                 res = entry.getKey();
             }
