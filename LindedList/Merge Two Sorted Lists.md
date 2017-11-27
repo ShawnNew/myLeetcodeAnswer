@@ -20,7 +20,7 @@ class Solution {
             l1.next = mergeTwoLists(l1.next, l2);
             return l1;
         } else {
-            head.next = mergeTwoLists(l1, l2.next);
+            l2.next = mergeTwoLists(l1, l2.next);
             return l2;
         }
     }
