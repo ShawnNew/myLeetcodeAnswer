@@ -29,6 +29,6 @@ class Solution {
 }
 </code></pre>
 ***
-* 该题的解题思路是实现辅助函数进行按位平方和累加的操作
-* 将在循环过程中出现的数存入HashSet中，如果之前出现过，则返回false；
-* 如果在循环过程中平方和为1，则返回true。
+* 该题的解题思路是使用辅助函数（digitSquareSum）按位进行平方和累加的操作。
+* 如果平方累加和不为1，则进入循环，并且将在循环过程中出现的数存入HashSet中。<em><strong>如果新数字在HashSet中存在，则set.add(n)操作将会返回false</strong></em>，最后返回false；
+* 如果在循环过程中平方和为1，跳出循环，返回true。
