@@ -31,3 +31,23 @@ class Solution {
 * 再使用循环计数。
 
 ### 改进方法
+<pre><code>
+class Solution {
+    public int countPrimes(int n) {
+        int count = 0;
+        boolean[] isPrime = new boolean[n];
+        for (int i = 2; i < n; i++) {
+            if (isPrime[i] == false) {
+                count++;
+                for (int j = 2; j * i < n; j++) {
+                    isPrime[j*i] = true;
+                }
+            }
+        }
+        return count;
+    }
+}
+</code></pre>
+***
+* 解题思路是使用n长的boolean类型的数组，存储小于n的所有数是质数还是合数。
+* 如果是质数则count++，再使用一层循环算出以当前数字为一公因子的合数存入数组。
