@@ -35,12 +35,12 @@ class Solution {
 class Solution {
     public int countPrimes(int n) {
         int count = 0;
-        boolean[] isPrime = new boolean[n];
+        boolean[] notPrime = new boolean[n];
         for (int i = 2; i < n; i++) {
-            if (isPrime[i] == false) {
+            if (notPrime[i] == false) {
                 count++;
                 for (int j = 2; j * i < n; j++) {
-                    isPrime[j*i] = true;
+                    notPrime[j*i] = true;
                 }
             }
         }
