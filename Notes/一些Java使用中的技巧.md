@@ -32,6 +32,8 @@ for (int e : nums) {
 		<code>hm.remove(someKey);</code>
 	
 	3. hashmap用put的方法增加元素，hashset用add的方法增加元素。 
+	4. <code>hm.putIfAbsent(key, value);</code>如果HashMap中无对应键值，则存入map；如果HashMap中存在相应键值，则返回value值。
+	5. <code>hm.getOrDefault(key, defaultValue);</code>如果存在key的映射，则返回value值；如果没有key的映射，则将value赋值为defaultValue。
 
 ***
 	
