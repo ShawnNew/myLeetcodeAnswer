@@ -85,7 +85,7 @@ for (int e : nums) {
 	2. 对集合排序：<code><em>Collections.sort(list);</em></code>
 
 ***
-* <strong>复制数组：</strong><code>int[] temp = nums.clone();</code>直接在数组对象上使用clone()方法即可。
+* <strong>复制数组：</strong><code><em>int[] temp = nums.clone();</em></code>直接在数组对象上使用clone()方法即可。
 
 ***
 
@@ -97,3 +97,15 @@ for (int e : nums) {
 
 	1. <strong>隐式类型转化：</strong>隐式转换也叫作自动类型转换, 由系统自动完成。从存储范围小的类型到存储范围大的类型。</br>byte ->short(char)->int->long->float->double
 	2. <strong>显示类型转换（强制转换）:</strong></br>![](tupian/zhuanhuan.png)</br>如上图所示：需要将a赋值给b并且进行强制转化。因为a在此处是变量，而且需要将存储范围大的类型转换为存储范围小的类型，所以需要用到强制转换。
+
+***
+* <strong>字符串的分割：</strong>java中String有自带函数<code><em>split("ReguExp");</em></code>其作用是匹配正则表达式ReguExp并且将字符串分割。
+
+***
+* <strong>Integer和int的区别:</strong>
+	1. int是基本的数据类型；
+	2. Integer是int的封装类；
+	3. int和Integer都可以表示某一个数值；
+	4. int和Integer不能够互用，因为他们两种不同的数据类型； 
+
+	ß>举个例子：<em>当需要往ArrayList，HashMap中放东西时，像int，double这种内建类型是放不进去的，因为容器都是装object的，这是就需要这些内建类型的外覆类了。</em> Java中每种内建类型都有相应的外覆类。 
