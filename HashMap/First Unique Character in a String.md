@@ -50,3 +50,29 @@ class Solution {
 ***
 * 解题思路是遍历字符串，使用HashMap存下每个字符，并且记录其索引值和出现的个数；
 * 最后遍历一遍HashMap，找到索引值最小的并且出现个数为1的元素输出。
+
+### 改进算法（256位数组）
+<pre><code>
+public class Solution {
+    public int firstUniqChar(String s) {
+        int freq [] = new int[256];
+        
+        //遍历一遍字符串，记录每个字符出现的频率
+        for(int i = 0; i < s.length(); i++) {
+            freq [s.charAt(i) - 'a']++;
+        }
+        
+        //再遍历一遍字符串，在第一个unique字符处输出1
+        for(int i = 0; i < s.length(); i++) {
+            if(freq [s.charAt(i) - 'a'] == 1) {
+                return i;
+            }
+        }
+        return -1;
+    }
+}
+</code></pre>
+
+***
+* 改进算法的test cases的runtime比original算法要小很多，此处注意讨论遍历HashMap的速度的问题。
+
