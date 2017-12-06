@@ -59,7 +59,7 @@ for (int e : nums) {
 			System.out.println("Key= " + entry.getKey() + ", Value=" + entry.getValue());
 	}
 	</code></pre>
-	2. 方法二：在for-each循环中遍历keys或values。(该方法比entrySet遍历在性能上烧好（快了10%），而且代码更加干净)。
+	2. 方法二：在for-each循环中遍历keys或values。(该方法比entrySet遍历在性能上稍好（快了10%），而且代码更加干净)。
 	<pre><code>
 	//遍历map中的键
 	for (Integer key : map.keySet()) {
