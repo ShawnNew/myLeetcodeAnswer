@@ -24,16 +24,19 @@ for (int e : nums) {
 
 ***
 
-* <strong>HashMap和HashSet的使用方法：</strong>
+* <strong>HashMap的一些使用方法：</strong>
 	1. 定义：<code>HashMap hm = new HashMap();</code>
-	2. 方法:
-		<code>hm.put(a, b);</code>
-		<code>hm.containsKey(someKey);</code>
-		<code>hm.remove(someKey);</code>
-	
-	3. hashmap用put的方法增加元素，hashset用add的方法增加元素。 
+	2. 增加操作：<code>hm.put(a, b);</code>
+	3. 检查是否存在：<code>hm.containsKey(someKey);</code>
+	4. 删除操作：<code>hm.remove(someKey);</code> 
 	4. <code>hm.putIfAbsent(key, value);</code>如果HashMap中无对应键值，则存入map；如果HashMap中存在相应键值，则返回value值。
 	5. <code>hm.getOrDefault(key, defaultValue);</code>如果存在key的映射，则返回value值；如果没有key的映射，则将value赋值为defaultValue。
+
+* <strong>HashSet的一些使用方法：</strong>
+	1. 定义：<code>Set< Type > hs = new HashSet< Type >();</code>
+	2. 增加操作：<code>hs.add(a);</code>
+	3. 检查是否存在：<code>hs.contains(someKey);</code>
+	4. 删除操作：<code>hs.remove(someKey);</code>
 
 ***
 	
