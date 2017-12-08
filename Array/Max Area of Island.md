@@ -48,6 +48,6 @@ class Solution {
 </code></pre>
 
 ***
-* 该题的阶梯思路是使用递归进行深度优先遍历（dfs）。
+* 该题的解题思路是使用递归进行深度优先遍历（dfs）。
 * 在遍历数组的过程中每遇到一个值为一的元素，则对元素的上下左右进行深度优先查找，得到包含该元素的最大岛面积。若大于maxArea则更新。
 * 递归函数的返回值为整型的从当前元素出发的最大岛面积。递归的<strong><em><font color=crimson>Base Case</font>是：检查到一个元素为0,则返回0</em></strong>；<strong><em><font color=crimson>递归式为：</font>areaOfIsland(左边元素)+areaOfIsland(右边元素)+areaOfIsland(上边元素)+areaOfIsland(下边元素)+1。</em></strong>
