@@ -33,8 +33,8 @@ for (int e : nums) {
 	5. <code>hm.getOrDefault(key, defaultValue);</code>如果存在key的映射，则返回value值；如果没有key的映射，则将value赋值为defaultValue。
 
 * <strong>HashSet的一些使用方法：</strong>
-	1. 定义：<code>Set< Type > hs = new HashSet< Type >();</code>
-	2. 增加操作：<code>hs.add(a);</code>
+	1. 定义：<code>Set hs = new HashSet< Type >();</code>
+	2. 增加操作：<code>hs.add(a);</code>set类中的add方法有返回值，返回值类型为boolean，返回结果为set中是否存在元素。
 	3. 检查是否存在：<code>hs.contains(someKey);</code>
 	4. 删除操作：<code>hs.remove(someKey);</code>
 
