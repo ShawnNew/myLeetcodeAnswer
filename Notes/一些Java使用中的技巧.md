@@ -85,6 +85,7 @@ for (int e : nums) {
 ***
 * <strong>排序：</strong>
 	1. 对数组进行排序：<code><em>Arrays.sort(int[] nums);</em></code>
+		* <font color = brown>对字符串数组的排序：</font><code><em>Arrays.sort(String[] string);</em></code>对字符串数组排序，得到的结果有如下特点：（1）字符串按照字母表的顺序排列（长词在短词之后）；（2）按照字典顺序（lexicographical ）排列。
 	2. 对集合排序：<code><em>Collections.sort(list);</em></code>
 
 ***
