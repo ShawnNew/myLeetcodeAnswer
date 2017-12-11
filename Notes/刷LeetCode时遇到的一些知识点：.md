@@ -22,4 +22,19 @@
 <em>一般情况下使用一个数组表示字符到数组中某一位的映射，然后数组中的每一位存储字符在字符串中的出现次数。</em></br>
 	1. 如果题目中给的条件是字符串中都是<strong><em>小写字符(lowercase)</em></strong>：<code>int[] letters = new int[26];</code>
 	2. 如果没有限定字符的条件，则为ASCII码，对应的数组即为ASCII码表：<code>int[] freq = new int[]256;</code>
+
+***
+#### 递归：
+* 递归的问题的中心思想是将大问题分解问子问题，通过解决子问题从而解决大问题。
+* 递归的函数要包含如下三个方面：<strong>基本条件（函数的结束条件）、递归式（拆分子问题）和返回值。</strong>
+* 分析如下使用递归求解阶乘的问题：
+	<pre><code>// 递归计算过程
+	int factorial(n){
+     	if(n == 1) { //基本条件n=1
+          return 1;
+    	}
+     	return n * factorial(n-1);  //返回值和递归式 
+	}
+	</code></pre>
+	
 	
