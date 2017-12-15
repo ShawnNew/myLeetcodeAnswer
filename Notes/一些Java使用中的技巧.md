@@ -112,4 +112,13 @@ for (int e : nums) {
 	3. int和Integer都可以表示某一个数值；
 	4. int和Integer不能够互用，因为他们两种不同的数据类型； 
 
-	ß>举个例子：<em>当需要往ArrayList，HashMap中放东西时，像int，double这种内建类型是放不进去的，因为容器都是装object的，这是就需要这些内建类型的外覆类了。</em> Java中每种内建类型都有相应的外覆类。 
+	>举个例子：<em>当需要往ArrayList，HashMap中放东西时，像int，double这种内建类型是放不进去的，因为容器都是装object的，这是就需要这些内建类型的外覆类了。</em> Java中每种内建类型都有相应的外覆类。 
+	
+***
+#### Stack的一些用法：
+* 堆是一种先进后出的数据结构，用push和pop存储数据。
+* <code>stack.push(E item);</code>存入数据；
+* <code>stack.pop();</code>取出数据；
+* <code>stack.empty();</code>检测堆是否为空，返回boolean类型；
+* <code>stack.peek();</code>查看堆顶元素，不取出；
+* <code>stack.search();</code>
