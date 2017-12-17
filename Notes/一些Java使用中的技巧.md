@@ -122,3 +122,10 @@ for (int e : nums) {
 * <code>stack.empty();</code>检测堆是否为空，返回boolean类型；
 * <code>stack.peek();</code>查看堆顶元素，不取出；
 * <code>stack.search();</code>
+
+***
+#### StringBuffer & StringBuilder:
+* Java.lang.StringBuffer是线程安全的可变字符序列。
+* java.lang.StringBuilder是一个与StringBuffer兼容的API，但不保证同步，建议在单线程中使用。
+	1. <em>stringbuilder.append('a');
+	2. stringbuilder.insert(4, 'a');</em>

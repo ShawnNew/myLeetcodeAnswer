@@ -47,3 +47,23 @@
         字符串中可能出现多处极大数，都使用上述规则；
         最后一个数总是相加。
         */</pre>
+
+***
+### 实现数学加法：
+* 在实现加法的方法中，往往使用到carry来记录进位情况；
+* 同时遍历两个加数，对于每个加数，值不为空时则加上进位值和当前值；
+* 累加和与进制取余数则得到和的当前位，累加和与进制相除则得到进位数。
+	<pre><code>List< Integer> res = new ArrayList< Integer>();
+	int carry  = 0;
+	int i = lenA - 1;
+	int j = lenB - 1;
+	while (i >= 0 ||j >= 0) {
+		int sum = carry;
+		if (i >= 0) sum += a[i--];
+		if (j >= 0) sum += b[j--];
+		res.add(sum % 10);
+		carry = sum / 10;
+	}
+	if (carry != 0) res.add(carry);
+	return res.reverse().toArray();
+	</code></pre>
