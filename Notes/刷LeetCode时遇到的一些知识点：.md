@@ -67,3 +67,9 @@
 	if (carry != 0) res.add(carry);
 	return res.reverse().toArray();
 	</code></pre>
+	
+***
+### Newton's Method:
+Newton's Method可以用来解决求解平方根的问题。
+
+* 迭代公式为：X(k+1) = 1/2 * (X(k) + (n / X(k)))。
