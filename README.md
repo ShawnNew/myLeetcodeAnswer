@@ -1,11 +1,12 @@
 ## 一些Java使用中的技巧
 
-* <strong>泛型：</strong><p>泛型是指<em>“参数化类型”</em>。参数，在定义方法是有形参，然后调用此方法时传递实参。参数化类型就是将具体类型参数化（类型参数），在使用时传入具体的类型（类型实参）。<pre><code>
+* <strong>泛型：</strong><p>泛型是指<em>“参数化类型”</em>。参数，在定义方法是有形参，然后调用此方法时传递实参。参数化类型就是将具体类型参数化（类型参数），在使用时传入具体的类型（类型实参）。
+```java
 List< String > list = new ArrayList< String >();
 list.add("abcdefg");
 list.add("helloworld");
 list.add(100); //会出错，因为在定义list变量的时候定义了型参< String > 
-</code></pre></p>
+```
 
 ***
 
