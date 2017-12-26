@@ -142,3 +142,13 @@ for (int e : nums) {
 * ```	substring(int beginIndex, int endIndex)；```根据开始和结束位置取得子字符串。
 * ```toCharArray()；```将字符串转换为char类型的数组。
 * ```	trim()；```去掉字符串前端和后端的空白部分。
+
+
+***
+## Character
+#### Character类的一些内建函数
+* 参考Java API：[Character Class API.](https://docs.oracle.com/javase/7/docs/api/java/lang/Character.html)
+* ```isAlphabetic(int codePoint);```检查一个字符是否为字母。
+* ```	isDigit(char ch);```检查是否为数字。
+* ```isLetterOrDigit(char ch)```检查是否为字母数字字符。
+* ```toLowerCase(char ch)```转换为小写。
