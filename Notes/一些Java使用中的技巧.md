@@ -13,15 +13,15 @@
 ***
 
 ### 循环数组：
+
 * 可以直接对于数组中的元素进行循环遍历，可以不用重新定义索引来循环数组。
 	
 	```java
-int[] nums = {1,2,3};
-for (int e : nums) {
-	System.out.println(e);
-}
-```
-
+	int[] nums = {1,2,3};
+	for (int e : nums) {
+		System.out.println(e);
+	}
+	```
 ***
 
 ### 合并数组：
