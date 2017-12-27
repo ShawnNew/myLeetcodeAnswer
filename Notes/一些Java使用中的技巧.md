@@ -142,6 +142,7 @@ for (int e : nums) {
 * ```	substring(int beginIndex, int endIndex)；```根据开始和结束位置取得子字符串。
 * ```toCharArray()；```将字符串转换为char类型的数组。
 * ```	trim()；```去掉字符串前端和后端的空白部分。
+* ```indexOf(String str);```如果参数字符串是查询字符串的prefix，则返回第一次出现的位置。
 
 
 ***
