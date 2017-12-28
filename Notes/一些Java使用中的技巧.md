@@ -135,7 +135,7 @@
 	>举个例子：<em>当需要往ArrayList，HashMap中放东西时，像int，double这种内建类型是放不进去的，因为容器都是装object的，这是就需要这些内建类型的外覆类了。</em> Java中每种内建类型都有相应的外覆类。 
 	
 ***
-### Stack的一些用法：
+### Stack的一些用法：[Stack API](https://docs.oracle.com/javase/7/docs/api/java/util/Stack.html)
 * 堆是一种先进后出的数据结构，用push和pop存储数据。
 * ```stack.push(E item);```存入数据；
 * ```stack.pop();```取出数据；
