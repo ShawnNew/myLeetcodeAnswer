@@ -158,6 +158,7 @@
 * ```toCharArray()；```将字符串转换为char类型的数组。
 * ```	trim()；```去掉字符串前端和后端的空白部分。
 * ```indexOf(String str);```如果参数字符串是查询字符串的prefix，则返回第一次出现的位置。
+* ```contains(CharSequence s);```字符串中含有制定字符时返回真，否则返回假。
 
 
 ***
