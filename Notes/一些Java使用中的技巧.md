@@ -169,3 +169,9 @@
 * ```	isDigit(char ch);```检查是否为数字。
 * ```isLetterOrDigit(char ch)```检查是否为字母数字字符。
 * ```toLowerCase(char ch)```转换为小写。
+
+***
+## Arrays
+#### Arrays类的一些内建函数
+* 参考Java API： [Arrays Class API.](https://docs.oracle.com/javase/7/docs/api/java/util/Arrays.html#binarySearch(byte[],%20byte))
+* ```binarySearch(int[] a, int key);```二分查找，如果找在数组中找到对应元素，则返回索引值；如果没有找到对应元素，返回插入值，```(-(insertion point) - 1)```。
