@@ -175,3 +175,4 @@
 #### Arrays类的一些内建函数
 * 参考Java API： [Arrays Class API.](https://docs.oracle.com/javase/7/docs/api/java/util/Arrays.html#binarySearch(byte[],%20byte))
 * ```binarySearch(int[] a, int key);```二分查找，如果找在数组中找到对应元素，则返回索引值；如果没有找到对应元素，返回插入值，```(-(insertion point) - 1)```。
+* ```equals(char[] a, char[] b);```如果两字符数组相等，则返回真。
