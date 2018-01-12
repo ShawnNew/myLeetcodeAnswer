@@ -154,7 +154,7 @@
 #### String类的一些内建函数
 * 参考Java API：[String Class API.](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html)
 * ```split("ReguExp");```根据正则表达式对字符串进行分割。
-* ```	substring(int beginIndex, int endIndex)；```根据开始和结束位置取得子字符串。
+* ```	substring(int beginIndex, int endIndex)；```根据开始和结束位置取得子字符串，结束位置到**endIndex-1**终止。
 * ```toCharArray()；```将字符串转换为char类型的数组。
 * ```	trim()；```去掉字符串前端和后端的空白部分。
 * ```indexOf(String str);```如果参数字符串是查询字符串的prefix，则返回第一次出现的位置。
