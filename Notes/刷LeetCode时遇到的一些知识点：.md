@@ -123,21 +123,22 @@ public backtrack() {
 	initial(x); //初始化解向量
 	i = 0; k[i] = 1; flag = false; //初始化
 	while (i >= 0) {  //循环条件行数大于0
-		x[i] = get(i, k[i]); //得到选择元素
-		if (constrain(x) && bound(x)) { //是可行解
-			if (solution(x)) { //是最终解
-				flag = true; break;
+		while (k[i] < m[i]) {
+			x[i] = get(i, k[i]); //得到选择元素
+			if (constrain(x) && bound(x)) { //是可行解
+				if (solution(x)) { //是最终解
+					flag = true; break;
+				}
+				else { //不是最终解
+					i = i+1; k[i] = 0;
+				}
+			} else { //不是可行解
+				k[i] = k[i] + 1;
+				}
 			}
-			else { //不是最终解
-				i = i+1; k[i] = 0;
-			}
-		} else { //不是可行解
-			k[i] = k[i] + 1;
-			}
+			if (flag) break;
+			k[i] = 1; i = i-1; k[i] = k[i] + 1; //回溯
 		}
-		if (flag) break;
-		k[i] = 1; i = i-1; k[i] = k[i] + 1; //回溯
-	}
 	if (!flag) { // 无解
 		initial{x}; //重置解向量
 	}	
