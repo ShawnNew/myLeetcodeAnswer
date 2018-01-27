@@ -105,6 +105,19 @@
 * 对数组进行排序：``` Arrays.sort(int[] nums);```
 * <font color = brown>对字符串数组的排序：</font> ```Arrays.sort(String[] string);```对字符串数组排序，得到的结果有如下特点：（1）字符串按照字母表的顺序排列（长词在短词之后）；（2）按照字典顺序（lexicographical ）排列。
 * 对集合排序：```Collections.sort(list);```
+* 集合Collections中sort方法使用comparator重写实现：
+	
+	```java
+		Collections.sort(list, new Comparator<Object>() {
+			public int compare(Object o1, Object o2) {
+				myClass mc1 = (myClass) o1;
+				myClass mc2 = (myClass) o2;
+				if (mc1.val > mc2.val) return 1; //前者大于后者
+				else if (mc1.val < mc2.val) return -1; //后者大于前者
+				else return 0;  //一样大
+			}
+		});
+	```
 
 ***
 
