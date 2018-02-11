@@ -160,3 +160,129 @@ public backtrack() {
 ***
 ### 排序(sort)
 可以参考[排序笔记](https://github.com/ShawnNew/myLeetcodeAnswer/blob/master/Notes/%E6%8E%92%E5%BA%8F.md)
+
+***
+### 二叉树
+二叉树是一种非常重要的数据结构，有深度遍历和广度遍历两种方法遍历二叉树。深度遍历有前序、中序以及后序三种遍历方法；广度遍历即通常所说的层次遍历。四种基本遍历思想如下：
+
+1. 前序遍历：根结点--->左子树--->右子树
+2. 中序遍历：左子树--->根节点--->右子树
+3. 后序遍历：左子树--->右子树--->根结点
+4. 层次遍历：仅仅需按层次遍历就可以
+
+对如下的二叉树，各种遍历有：
+
+![](tupian/erchashu.png)
+
+* 前序遍历：1-2-4-5-7-8-3-6
+* 中序遍历：4-2-7-5-8-1-3-6
+* 后序遍历：4-7-8-5-2-6-3-1
+* 层次遍历：1-2-3-4-5-6-7-8
+
+### 前序遍历代码如下：
+递归解法：
+
+```java
+public void preOrderTraverse1 (TreeNode root) {
+	if (root != null) {
+		System.out.print(root.val+" ");
+		preOrderTraverse1(root.left);
+		preOrderTraverse1(root.right);
+	}
+}
+```
+非递归解法：需要使用栈来辅助。
+
+a）首先，把结点node入栈，当前结点置为做孩子；
+
+b）推断结点node是否为空，若为空。则取出栈顶结点并出栈，将右孩子置位当前结点；否则反复a）步直到当前结点为空或者栈为空（能够发现栈中的几点就是为了访问右孩子才存储的）
+
+```java
+public void preOrderTraverse2 (TreeNode root) {
+	LinkedList<TreeNode> stack = new LinkedList<>();
+	TreeNode pNode = root;
+	while (pNode != null || !stack.isEmpty()) {
+		if (pNode != null) {
+			System.out.print(pNode.val+" ");
+			stack.push(pNode);
+			pNode = pNode.left;
+		} else {  // pNode == null && !stack.isEmpty()
+			TreeNode node = stack.pop();
+			pNode = node.right;
+			
+		}
+	}
+}
+```
+
+### 中序遍历如下
+递归解法
+
+```java
+public void inOrderTraverse1 (TreeNode root) {
+	if (root != null) {
+		inOrderTraverse1(root.left);
+		System.out.print(root.val+" ");
+		inOrderTraverse1(root.right);
+	}
+}
+```
+
+非递归解法
+
+```java
+public void inOrderTraverse2 (TreeNode root) {
+	LindedList<TreeNode> stack = new LinkedList<>();
+	TreeNode pNode = root;
+	while (pNode != null || !stack.isEmpty()) {
+		if (pNode !=  null) {
+			stack.push(pNode);
+			pNode = pNode.left;
+		} else {    // pNode == null && !stack.isEmpty()
+			TreeNode node = stack.pop();
+			System.out.print(node.val+ " ");
+			pNode = node.right;
+		}
+	}
+}
+```
+
+### 后序遍历
+
+递归实现
+
+```java
+public void postOrderTraverse1(TreeNode root) {  
+        if (root != null) {  
+            postOrderTraverse1(root.left);  
+            postOrderTraverse1(root.right);  
+            System.out.print(root.val+"  ");  
+        }  
+    }  
+```
+
+后序遍历的非递归实现是三种遍历方式中最难的一种。由于在后序遍历中，要保证左孩子和右孩子都已被訪问而且左孩子在右孩子前訪问才干訪问根结点，这就为流程的控制带来了难题。
+
+因此使用一个中间栈来存储逆后序遍历的结果，即中间栈存储顺序：根结点--->右子树--->左子树。然后再依次pop出中间栈中的元素即可。
+
+```java
+public void postOrderTraverse2(TreeNode root) {
+	Stack<TreeNode> stack = new Stack<>();
+	Stack<TreeNode> output = new Stack<>();
+	TreeNode pNode = root;
+	while (pNode != null || !stack.isEmpty()) {
+		if (pNode != null) {
+			output.push(pNode);
+			stack.push(pNode);
+			pNode = pNode.right;
+		} else {
+			pNode = stack.pop();
+			pNode = pNode.left;
+		}
+	}
+	while (!output.isEmpty()) {
+		TreeNode node = output.pop();
+		System.out.print(node.val+ " ");
+	}
+}
+```
