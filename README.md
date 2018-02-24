@@ -60,7 +60,7 @@
   * [*17. Letter Combinations of a Phone Number*](BackTracking/17.%20Letter%20Combinations%20of%20a%20Phone%20Number.md)
   * [*22. Generate Parentheses*](BackTracking/22.%20Generate%20Parentheses.md)
   * [*39. Combination Sum*](BackTracking/39.%20Combination%20Sum.md)
-  * [*40. Combination Sum II*](BackTracking/40.%20Combination%20Sum%20II.md40. Combination Sum II)
+  * [*40. Combination Sum II*](BackTracking/40.%20Combination%20Sum%20II.md)
   * [*46. Permutations*](BackTracking/46.%20Permutations.md)
   * [*47. Permutations II*](BackTracking/47.%20Permutations%20II.md)
   * [*60. Permutation Sequence*](BackTracking/60.%20Permutation%20Sequence.md)
