@@ -28,32 +28,134 @@
   * [*88. Merge Sorted Array*](Array/88.%20Merge%20Sorted%20Array.md)
   * [*119. Pascal's Triangle*](Array/119.%20Pascal's%20Triangle.md)
   * [*120. Pascal's Triangle II*](Array/120.%20Pascal's%20Triangle%20II.md)
+  * [*121. Best Time to Buy and Sell Stock(DP)*](Array/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock(DP).md)
+  * [*122. Best Time to Buy and Sell Stock II*](Array/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II.md)
+  * [*167. Two Sum II - Input array is sorted*](Array/167.%20Two%20Sum%20II%20-%20Input%20array%20is%20sorted.md)
+  * [*169. Majority Element*](Array/169.%20Majority%20Element.md)
+  * [*189. Rotate Array*](Array/189.%20Rotate%20Array.md)
+  * [*206. Reverse Linked List*](Array/206.%20Reverse%20Linked%20List.md)
+  * [*217. Contains Duplicate*](Array/217.%20Contains%20Duplicate.md)
+  * [*268. Missing Number*](Array/268.%20Missing%20Number.md)
+  * [*283. Move Zeros*](Array/283.%20Move%20Zeroes.md)
+  * [*414. Third Maximum Number*](Array/414.%20Third%20Maximum%20Number.md)
+  * [*448. Find All Number Disappeared in an Array*](448.%20Find%20All%20Numbers%20Disappeared%20in%20an%20Array.md)
+  * [*485. Max Consecutive Ones*](Array/485.%20Max%20Consecutive%20Ones.md)
+  * [*532. K-diff Pairs in an Array*](Array/532.%20K-diff%20Pairs%20in%20an%20Array.md)
+  * [*561. Array Partition I*](Array/561.%20Array%20Partition%20I.md)
+  * [*566. Reshape the Matrix*](Array/566.%20Reshape%20the%20Matrix.md)
+  * [*581. Shortest Unsorted Continuous Subarray*](Array/581.%20Shortest%20Unsorted%20Continuous%20Subarray.md)
+  * [*605. Can Place Flowers*](Array/605.%20Can%20Place%20Flowers.md)
+  * [*628. Maximum Product of Three Numbers*](Array/628.%20Maximum%20Product%20of%20Three%20Numbers.md)
+  * [*643. Maximum Average Subarray I*](Array/643.%20Maximum%20Average%20Subarray%20I.md)
+  * [*661. Image Smoother*](Array/661.%20Image%20Smoother.md)
+  * [*665. Non-decreasing Array*](Array/665.%20Non-decreasing%20Array.md)
+  * [*674. Longest Continuous Increasing Subsequence*](Array/674.%20Longest%20Continuous%20Increasing%20Subsequence.md)
+  * [*695. Max Area of Island*](Array/695.%20Max%20Area%20of%20Island.md)
+  * [*697. Degree of an Array*](Array/697.%20Degree%20of%20an%20Array.md)
   * [*717. 1-bit and 2-bit Characters*](Array/717.%1-bit%and%2-bit%Characters.md)
+  * [*724. Find Pivot Index*](Array/724.%20Find%20Pivot%20Index.md)
 
 ### Back Tracking
-
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
 ### Binary Search
-
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
 ### Dynamic Programming
-
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
 ### Graph
-
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
+  
 ### HashMap
-
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
+  
 ### Linked List
-
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
 ### Math
-
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
 ### Sort
-
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
 ### Stack
-
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
 ### String
-
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
 ### Tree
-
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
 ### Two Pointers
-
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
 ### Note
-
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
+  * [**]()
 
