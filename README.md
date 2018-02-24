@@ -2,6 +2,7 @@
 
 我将LeetCode算法题按照标签整理了一些解题思路，下面会分别给出链接方便查看。同时，还我还贴出了一些刷题过程中记录的一些[笔记](#note)。
 
+### 目录
 * [Array](#array)
 * [BackTracking](#back-tracking)
 * [Binary Search](#binary-search)
