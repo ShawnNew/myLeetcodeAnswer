@@ -19,9 +19,16 @@
 
 
 ### Array
-  * [1. Two Sum](Array/1.%20Two%20Sum.md)
-  * [18. 4Sum](Array/18.%4Sum.md)
-  * [717. 1-bit and 2-bit Characters](Array/717.%1-bit and 2-bit Characters.md)
+  * [*1. Two Sum*](Array/1.%20Two%20Sum.md)
+  * [*18. 4Sum*](Array/18.%4Sum.md)
+  * [*26. Remove Duplicate from Sorted Array*](Array/26.%Remove%Duplicate%from%Sorted%Array.md)
+  * [*31. Next Permutation*](Array/31.%20Next%20Permutation.md)
+  * [*48. Rotate Image*](Array/48.%20Rotate%20Image.md)
+  * [*53. Maximum Subarray*](Array/53.%20Maximum%20Subarray.md)
+  * [*88. Merge Sorted Array*](Array/88.%20Merge%20Sorted%20Array.md)
+  * [*119. Pascal's Triangle*](Array/119.%20Pascal's%20Triangle.md)
+  * [*120. Pascal's Triangle II*](Array/120.%20Pascal's%20Triangle%20II.md)
+  * [*717. 1-bit and 2-bit Characters*](Array/717.%1-bit%and%2-bit%Characters.md)
 
 ### Back Tracking
 
