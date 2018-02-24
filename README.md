@@ -20,7 +20,7 @@
 
 
 ### Array
-  * [*1. Two Sum*](Array/1.%20Two%20Sum.md)
+  * [*1. Two Sum*](https://github.com/ShawnNew/myLeetcodeAnswer/blob/master/Array/1.%20Two%20Sum.md)
   * [*18. 4Sum*](Array/18.%4Sum.md)
   * [*26. Remove Duplicate from Sorted Array*](Array/26.%Remove%Duplicate%from%Sorted%Array.md)
   * [*31. Next Permutation*](Array/31.%20Next%20Permutation.md)
