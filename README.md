@@ -19,9 +19,9 @@
 
 
 ### Array
-  * [1. Two Sum](Array/1.Two Sum.md)
-  * [18. 4Sum](Array/18.4Sum.md)
-  * [717. 1-bit and 2-bit Characters](Array/717.1-bit and 2-bit Characters.md)
+  * [1. Two Sum](Array/1. Two Sum.md)
+  * [18. 4Sum](Array/18. 4Sum.md)
+  * [717. 1-bit and 2-bit Characters](Array/717. 1-bit and 2-bit Characters.md)
 
 ### Back Tracking
 
