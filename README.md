@@ -3,35 +3,35 @@
 我将LeetCode算法题按照标签整理了一些解题思路，下面会分别给出链接方便查看。
 
 * [Array](#Array)
-* [BackTracking](#BackTracking)
-* [Binary Search](#BinarySearch)
-* [Dynamic Programming](#DynamicProgramming)
+* [BackTracking](#Back-Tracking)
+* [Binary Search](#Binary-Search)
+* [Dynamic Programming](#Dynamic-Programming)
 * [Graph](#Graph)
 * [HashMap](#HashMap)
-* [LinkedList](#LinkedList)
+* [LinkedList](#Linked-List)
 * [Math](#Math)
 * [Sort](#Sort)
 * [Stack](#Stack)
 * [String](#String)
 * [Tree](#Tree)
-* [TwoPointers](#TwoPointers)
+* [TwoPointers](#Two-Pointers)
 * [Note](#Note)
 
 
 ### Array
   * [717. 1-bit and 2 bit Characters]()
 
-### BackTracking
+### Back Tracking
 
-### BinarySearch
+### Binary Search
 
-### DynamicProgramming
+### Dynamic Programming
 
 ### Graph
 
 ### HashMap
 
-### LinkedList
+### Linked List
 
 ### Math
 
@@ -43,7 +43,7 @@
 
 ### Tree
 
-### TwoPointers
+### Two Pointers
 
 ### Note
 
