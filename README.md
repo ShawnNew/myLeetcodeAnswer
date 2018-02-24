@@ -21,7 +21,7 @@
 
 ### Array
   
-  * [*1. Two Sum*](docs/1.%20Two%20Sum.md)
+  * [*1. Two Sum*](1.%20Two%20Sum.md)
   * [*18. 4Sum*](docs/18.%4Sum.md)
   * [*26. Remove Duplicate from Sorted Array*](docs/26.%Remove%Duplicate%from%Sorted%Array.md)
   * [*31. Next Permutation*](docs/31.%20Next%20Permutation.md)
