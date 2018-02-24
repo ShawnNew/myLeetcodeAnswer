@@ -75,6 +75,7 @@
   * [*278. First Bad Version*](BinarySearch/278.%20First%20Bad%20Version.md)
   * [*374. Guess Number Higher of Lower*](BinarySearch/374.%20Guess%20Number%20Higher%20or%20Lower.md)
   * [*475. Heaters*](BinarySearch/475.%20Heaters.md)
+
 ### Dynamic Programming
   * [*62. Unique Paths*](DynamicProgramming/62.%20Unique%20Paths.md)
   * [*63. Unique Paths II*](DynamicProgramming/63.%20Unique%20Paths%20II.md)
@@ -84,6 +85,7 @@
   * [*198. House Robber*](DynamicProgramming/198.%20House%20Robber.md)
   * [*303. Range Sum Query - Immutable*](DynamicProgramming/303.%20Range%20Sum%20Query%20-%20Immutable.md)
   * [*746. Min Cost Climbing Stairs*](DynamicProgramming/746.%20Min%20Cost%20Climbing%20Stairs.md)
+
 ### Graph
   * [*133. Clone Graph*](Graph/133.%20Clone%20Graph.md)
   
