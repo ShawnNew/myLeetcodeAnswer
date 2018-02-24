@@ -20,7 +20,6 @@
 
 
 ### Array
-  
   * [*1. Two Sum*](docs/1. Two Sum.md)
   * [*18. 4Sum*](docs/18.%4Sum.md)
   * [*26. Remove Duplicate from Sorted Array*](docs/26.%Remove%Duplicate%from%Sorted%Array.md)
