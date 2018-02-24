@@ -2,20 +2,20 @@
 
 我将LeetCode算法题按照标签整理了一些解题思路，下面会分别给出链接方便查看。
 
-* [Array](#Array)
-* [BackTracking](#Back-Tracking)
-* [Binary Search](#Binary-Search)
-* [Dynamic Programming](#Dynamic-Programming)
-* [Graph](#Graph)
-* [HashMap](#HashMap)
-* [LinkedList](#Linked-List)
-* [Math](#Math)
-* [Sort](#Sort)
-* [Stack](#Stack)
-* [String](#String)
-* [Tree](#Tree)
-* [TwoPointers](#Two-Pointers)
-* [Note](#Note)
+* [Array](#array)
+* [BackTracking](#back-tracking)
+* [Binary Search](#binary-search)
+* [Dynamic Programming](#dynamic-programming)
+* [Graph](#graph)
+* [HashMap](#hashmap)
+* [LinkedList](#linked-list)
+* [Math](#math)
+* [Sort](#sort)
+* [Stack](#stack)
+* [String](#string)
+* [Tree](#tree)
+* [TwoPointers](#two-pointers)
+* [Note](#note)
 
 
 ### Array
