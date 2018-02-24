@@ -112,60 +112,125 @@
   * [*734. Sentence Similarity*](HashMap/734.%20Sentence%20Similarity.md)
   
 ### Linked List
-  * [**]()
-  * [**]()
-  * [**]()
-  * [**]()
-  * [**]()
-  * [**]()
-  * [**]()
-  * [**]()
+  * [*19. Remove Nth Node From End of List*](LindedList/19.%20Remove%20Nth%20Node%20From%20End%20of%20List.md)
+  * [*21. Merge Two Sorted Lists*](LindedList/21.%20Merge%20Two%20Sorted%20Lists.md)
+  * [*83. Remove Duplicates from Sorted List*](LindedList/83.%20Remove%20Duplicates%20from%20Sorted%20List.md)
+  * [*141. Linked List Cycle*](LindedList/141.%20Linked%20List%20Cycle.md)
+  * [*160. Intersection of Two Linked Lists*](LindedList/160.%20Intersection%20of%20Two%20Linked%20Lists.md)
+  * [*203. Remove Linked List Elements*](LindedList/203.%20Remove%20Linked%20List%20Elements.md)
+  * [*234. Palindrome Linked List*](LindedList/234.%20Palindrome%20Linked%20List.md#234-palindrome-linked-list)
+  * [*237. Delete Node in a Linked List*](LindedList/237.%20Delete%20Node%20in%20a%20Linked%20List.md)
+  * [*445. Add Two Numbers II*](LindedList/445.%20Add%20Two%20Numbers%20II.md)
+  * [*725. Split Linked List in Parts
+*](LindedList/725.%20Split%20Linked%20List%20in%20Parts.md#725-split-linked-list-in-parts)
+
 ### Math
-  * [**]()
-  * [**]()
-  * [**]()
-  * [**]()
-  * [**]()
-  * [**]()
+  * [*2. Add Two Numbers*](Math/2.%20Add%20Two%20Numbers.md)
+  * [*7. Reverse Integer*](Math/7.%20Reverse%20Integer.md)
+  * [*9. Palindrome Number*](Math/9.%20Palindrome%20Number.md)
+  * [*13. Roman to Integer*](Math/13.%20Roman%20to%20Integer.md)
+  * [*43. Multiply Strings*](Math/43.%20Multiply%20Strings.md)
+  * [*67. Add Binary*](Math/67.%20Add%20Binary.md)
+  * [*69. Sqrt(x)*](Math/69.%20Sqrt(x).md)
+  * [*168. Excel Sheet Column Title*](Math/168.%20Excel%20Sheet%20Column%20Title.md)
+  * [*171. Excel Sheet Column Number*](Math/171.%20Excel%20Sheet%20Column%20Number.md)
+  * [*172. Factorial Trailing Zeroes
+*](Math/172.%20Factorial%20Trailing%20Zeroes.md)
+  * [*231. Power of Two*](Math/231.%20Power%20of%20Two.md#231-power-of-two)
+  * [*258. Add Digits
+*](Math/258.%20Add%20Digits.md)
+  * [*263. Ugly Number*](master/Math/263.%20Ugly%20Number.md)
+  * [*326. Power of Three
+*](Math/326.%20Power%20of%20Three.md)
+  * [*367. Valid Perfect Square*](master/Math/367.%20Valid%20Perfect%20Square.md)
+  * [*400. Nth Digit*](Math/400.%20Nth%20Digit.md#400-nth-digit)
+  * [*415. Add Strings*](Math/415.%20Add%20Strings.md)
+  * [*441. Arranging Coins*](Math/441.%20Arranging%20Coins.md)
+  * [*453. Minimum Moves to Equal Array Elements*](Math/453.%20Minimum%20Moves%20to%20Equal%20Array%20Elements.md)
+  * [*507. Perfect Number*](Math/507.%20Perfect%20Number.md)
+  * [*598. Range Addition II*](Math/598.%20Range%20Addition%20II.md)
+  * [*633. Sum of Square Numbers*](Math/633.%20Sum%20of%20Square%20Numbers.md)
+  * [*728. Self Dividing Numbers*](Math/728.%20Self%20Dividing%20Numbers.md)
+
+  
 ### Sort
-  * [**]()
-  * [**]()
-  * [**]()
-  * [**]()
-  * [**]()
+  * [*56. Merge Intervals*](Sort/56.%20Merge%20Intervals.md)
+  * [*75. Sort Colors*](Sort/75.%20Sort%20Colors.md)
+  * [*147. Insertion Sort List*](Sort/147.%20Insertion%20Sort%20List.md)
+  * [*148. Sort List*](Sort/148.%20Sort%20List.md)
+  * [*179. Largest Number*](Sort/179.%20Largest%20Number.md)
+  * [*274. H-Index
+*](Sort/274.%20H-Index.md)
+
 ### Stack
-  * [**]()
-  * [**]()
-  * [**]()
-  * [**]()
-  * [**]()
-  * [**]()
-  * [**]()
-  * [**]()
+  * [*225. Implement Stack using Queues*](Stack/225.%20Implement%20Stack%20using%20Queues.md)
+  * [*232. Implement Queue using Stacks*](Stack/232.%20Implement%20Queue%20using%20Stacks.md)
+  * [*496. Next Greater Element I*](Stack/496.%20Next%20Greater%20Element%20I.md)
+  * [*682. Baseball Game*](Stack/682.%20Baseball%20Game.md)
+
+  
 ### String
-  * [**]()
-  * [**]()
-  * [**]()
-  * [**]()
-  * [**]()
-  * [**]()
+  * [*5. Longest Palindromic Substring*](String/5.%20Longest%20Palindromic%20Substring.md)
+  * [*12. Integer to Roman*](String/12.%20Integer%20to%20Roman.md)
+  * [*14. Longest Common Prefix*](String/14.%20Longest%20Common%20Prefix.md)
+  * [*20. Valid Parentheses*](String/20.%20Valid%20Parentheses.md)
+  * [*38. Count and Say*](String/38.%20Count%20and%20Say.md)
+  * [*58. Length of Last Word*](String/58.%20Length%20of%20Last%20Word.md)
+  * [*345. Reverse Vowels of a String*](String/345.%20Reverse%20Vowels%20of%20a%20String.md)
+  * [*383. Ransom Note*](String/383.%20Ransom%20Note.md)
+  * [*434. Number of Segments in a String*](String/434.%20Number%20of%20Segments%20in%20a%20String.md)
+  * [*443. String Compression
+*](String/443.%20String%20Compression.md)
+  * [*459. Repeated Substring Pattern*](String/459.%20Repeated%20Substring%20Pattern.md)
+  * [*520. Detect Capital*](String/520.%20Detect%20Capital.md)
+  * [*541. Reverse String II*](String/541.%20Reverse%20String%20II.md)
+  * [*551. Student Attendance Record I*](String/551.%20Student%20Attendance%20Record%20I.md)
+  * [*557. Reverse Words in a String III*](String/557.%20Reverse%20Words%20in%20a%20String%20III.md)
+  * [*606. Construct String from Binary Tree*](String/606.%20Construct%20String%20from%20Binary%20Tree.md)
+  * [*657. Judge Route Circle*](String/657.%20Judge%20Route%20Circle.md)
+  * [*680. Valid Palindrome II*](String/680.%20Valid%20Palindrome%20II.md)
+  * [*686. Repeated String Match*](String/686.%20Repeated%20String%20Match.md)
+  * [*696. Count Binary Substrings*](String/696.%20Count%20Binary%20Substrings.md)
+  * [*744. Find Smallest Letter Greater Than Target*](String/744.%20Find%20Smallest%20Letter%20Greater%20Than%20Target.md)
+  
+
+  
 ### Tree
-  * [**]()
-  * [**]()
-  * [**]()
-  * [**]()
-  * [**]()
-  * [**]()
+  * [*94. Binary Tree Inorder Traversal
+*](Tree/94.%20Binary%20Tree%20Inorder%20Traversal.md)
+  * [*95. Unique Binary Search Trees II*](Tree/95.%20Unique%20Binary%20Search%20Trees%20II.md)
+  * [*96. Unique Binary Search Trees*](Tree/96.%20Unique%20Binary%20Search%20Trees.md)
+  * [*98. Validate Binary Search Tree*](Tree/98.%20Validate%20Binary%20Search%20Tree.md)
+  * [*100. Same Tree*](Tree/100.%20Same%20Tree.md)
+  * [*103. Binary Tree Zigzag Level Order Traversal*](Tree/103.%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal.md)
+  * [*105. Construct Binary Tree from Preorder and Inorder Traversal*](Tree/105.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal.md)
+  * [*106. Construct Binary Tree from Inorder and Postorder Traversal*](Tree/106.%20Construct%20Binary%20Tree%20from%20Inorder%20and%20Postorder%20Traversal.md)
+  * [*108. Convert Sorted Array to Binary Search Tree*](Tree/108.%20Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree.md)
+  * [*110. Balanced Binary Tree
+*](Tree/110.%20Balanced%20Binary%20Tree.md)
+  * [*111. Minimum Depth of Binary Tree*](Tree/111.%20Minimum%20Depth%20of%20Binary%20Tree.md)
+
+  
 ### Two Pointers
-  * [**]()
-  * [**]()
-  * [**]()
-  * [**]()
-  * [**]()
+  * [*3. Longest Substring Without Repeating Characters
+*](TwoPointers/3.%20Longest%20Substring%20Without%20Repeating%20Characters.md)
+  * [*11. Container With Most Water*](TwoPointers/11.%20Container%20With%20Most%20Water.md)
+  * [*15. 3Sum*](TwoPointers/15.%203Sum.md)
+  * [*16. 3Sum Closest*](TwoPointers/16.%203Sum%20Closest.md)
+  * [*19. Remove Nth Node From End of List*](TwoPointers/19.%20Remove%20Nth%20Node%20From%20End%20of%20List.md)
+  * [*24. Swap Nodes in Paris
+*](TwoPointers/24.%20Swap%20Nodes%20in%20Pairs.md)
+  * [*28. Implement strStr()*](TwoPointers/28.%20Implement%20strStr().md)
+  * [*31. Next Permutation*](TwoPointers/31.%20Next%20Permutation.md)
+  * [*125. Valid Palindrome*](TwoPointers/125.%20Valid%20Palindrome.md)
+  * [*344. Reverse String
+*](TwoPointers/344.%20Reverse%20String.md)
+
+
 ### Note
-  * [**]()
-  * [**]()
-  * [**]()
-  * [**]()
-  * [**]()
+  * [*一些Java使用中的技巧*](Notes/一些Java使用中的技巧.md)
+  * [*刷LeetCode时遇到的一些知识点：*](Notes/刷LeetCode时遇到的一些知识点：.md)
+  * [*排序*](Notes/排序.md)
+  * [*矩阵的转置变换、翻转行/列、旋转*](Notes/矩阵的对称变换、翻转行（列）、旋转.md)
+
 
