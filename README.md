@@ -93,6 +93,7 @@
   
 ### HashMap
   * [*36. Valid Sudoku*](docs/Valid_Sudoku.md)
+  * [*46. Group Anagrams*](docs/Group_Anagrams.md)
   * [*136. Single Number*](docs/Single_Number.md)
   * [*202. Happy Number*](docs/Happy_Number.md)
   * [*204. Count Primes*](docs/Count_Primes.md)
