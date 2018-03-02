@@ -159,7 +159,7 @@ public backtrack() {
 
 ***
 ### 排序(sort)
-可以参考[排序笔记](https://github.com/ShawnNew/myLeetcodeAnswer/blob/master/Notes/%E6%8E%92%E5%BA%8F.md)
+可以参考[排序笔记](排序.md)
 
 ***
 ### 二叉树
