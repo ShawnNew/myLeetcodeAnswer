@@ -73,7 +73,7 @@
 ### Binary Search
   * [*33. Search in Rotated Sorted Array*](docs/Search_in_Rotated_Sorted_Array.md)
   * [*34. Search for a Range*](docs/Search_for_a_Range.md)
-  * [*50. Pow(x, n)*](docs/Pow(x, n).md)
+  * [*50. Pow(x, n)*](docs/Pow.md)
   * [*278. First Bad Version*](docs/First_Bad_Version.md)
   * [*374. Guess Number Higher of Lower*](docs/374Guess_Number_Higher_or_Lower.md)
   * [*475. Heaters*](docs/Heaters.md)
@@ -224,9 +224,8 @@
 ### Note
   * [*一些Java使用中的技巧*](docs/一些Java使用中的技巧.md)
   * [*刷LeetCode时遇到的一些知识点：*](docs/刷LeetCode时遇到的一些知识点.md)
-  * [*排序*](docs/排序.md)
-  * [*矩阵的转至变换、翻转行/列、旋转*](docs/矩阵变换.md)
-
+  * [*排序*](docs/排序.md)
+  * [*矩阵的转置变换、翻转行/列、旋转*](docs/矩阵变换.md)
 
 
 
