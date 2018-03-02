@@ -224,8 +224,5 @@
 ### Note
   * [*一些Java使用中的技巧*](docs/一些Java使用中的技巧.md)
   * [*刷LeetCode时遇到的一些知识点：*](docs/刷LeetCode时遇到的一些知识点.md)
-  * [*排序*](docs/排序.md)
+  * [*排序*](docs/排序.md)
   * [*矩阵的转置变换、翻转行/列、旋转*](docs/矩阵变换.md)
-
-
-
