@@ -1,13 +1,13 @@
 ## 一些Java使用中的技巧
 
 ### 泛型:
-* 泛型是指*“参数化类型”*。参数，在定义方法是有形参，然后调用此方法时传递实参。参数化类型就是将具体类型参数化（类型参数），在使用时传入具体的类型（类型实参）。
+* 泛型是指*“参数化类型”*。参数，在定义方法时有形参，然后调用此方法时传递实参。参数化类型就是将具体类型参数化（类型参数），在使用时传入具体的类型（类型实参）。
 
 	```java
-	List< String > list = new ArrayList< String >();
+	List<String > list = new ArrayListString>();
 	list.add("abcdefg");
 	list.add("helloworld");
-	list.add(100); //会出错，因为在定义list变量的时候定义了型参< String > 
+	list.add(100); //会出错，因为在定义list变量的时候定义了型参<String> 
 	```
 
 ***
@@ -52,7 +52,7 @@
 ***
 
 ### ArrayList
-* 是实现List接口的动态数组，即数组的大小可变，相对于传统数组的长度不变。一些方法如下：
+* 是实现List接口的动态数组，相对于传统的数组，ArrayList的长度可变，是一种动态的数组。一些方法如下：
 	1. ```List arraylist = new ArrayList();     //构造函数```
 	2. ```arraylist.add();      //新增元素```
 	3. ```arraylist.addAll(Collection <? extends E> c);``` 按照指定collection的迭代器返回元素顺序，将collection中的所有元素添加到此列表的尾部。
@@ -68,8 +68,8 @@
 * 方法一：在for-each循环中使用entries来遍历（在键值都需要使用时）
 
 	```java
-	Map< Integer, Integer > map = new HashMap< Integer, Integer >();
-		for (Map.Entry< Integer, Integer > entry : map.entrySet()) {
+	Map<Integer, Integer> map = new HashMap<Integer, Integer>();
+	for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
 				System.out.println("Key= " + entry.getKey() + ", Value=" + entry.getValue());
 		}
 	```
@@ -92,7 +92,7 @@
 * 方法三：使用Iterator遍历：
 	
 	```java
-	Iterator< Map.Entry < Integer, Integer >> entries = map.entrySet().iterator();
+	Iterator<Map.Entry<Integer, Integer>> entries = map.entrySet().iterator();
 	while (entries.hasNext()) {
 			Map.Entry< Integer, Integer > entry = entries.next();
 			System.out.println("Key = " + entry.getKey() + ", Value = " + entry.getValue());
@@ -103,9 +103,9 @@
 
 ### 排序：
 * 对数组进行排序：``` Arrays.sort(int[] nums);```
-* <font color = brown>对字符串数组的排序：</font> ```Arrays.sort(String[] string);```对字符串数组排序，得到的结果有如下特点：（1）字符串按照字母表的顺序排列（长词在短词之后）；（2）按照字典顺序（lexicographical ）排列。
+* **对字符串数组的排序**：```Arrays.sort(String[] string);```对字符串数组排序，得到的结果有如下特点：（1）字符串按照字母表的顺序排列（长词在短词之后）；（2）按照字典顺序（lexicographical ）排列。
 * 对集合排序：```Collections.sort(list);```
-* 集合Collections中sort方法使用comparator重写实现：
+* 集合Collections中sort方法通过对comparator接口的实现来完成，代码如下：
 	
 	```java
 		Collections.sort(list, new Comparator<Object>() {
@@ -126,16 +126,22 @@
 
 ***
 
-### 遍历数组时需要前后位比较：
- * 当遍历数组的时候，需要使用到前后位比较的情况，如果直接在遍历的过程中查看i+1或者i-1会超出数组索引。因此引用prev或者next变量来记录遍历元素的前后位。
+### 在遍历中比较数组前后位元素：
+ * 当遍历数组的时候，如遇到需要比较前后位的情况，若直接在遍历的过程中查看i+1或者i-1会引发超出数组索引的错误。因此使用prev或者next变量来记录遍历元素的前后位。
 
 ***
 
 ### Java基本数据类型转换：
-在Java中，整数类型（byte/short/int/long）中，对于未声明数据类型的整形，其默认类型为int型。在浮点类型（float/double）中，对于未声明数据类型的浮点型，默认为double型。</br>
+在Java中，整数类型（byte/short/int/long）中，对于未声明数据类型的整形，其默认类型为int型。在浮点类型（float/double）中，对于未声明数据类型的浮点型，默认为double型。
 
-* **隐式类型转化：**隐式转换也叫作自动类型转换, 由系统自动完成。从存储范围小的类型到存储范围大的类型。</br>byte ->short(char)->int->long->float->double
-*  **显示类型转换（强制转换）:**</br>![](tupian/zhuanhuan.png)</br>如上图所示：需要将a赋值给b并且进行强制转化。因为a在此处是变量，而且需要将存储范围大的类型转换为存储范围小的类型，所以需要用到强制转换。
+* **隐式类型转化：**隐式转换也叫作自动类型转换, 由系统自动完成。从存储范围小的类型到存储范围大的类型。
+
+	byte ->short(char)->int->long->float->double
+*  **显示类型转换（强制转换）:**
+
+	![](tupian/zhuanhuan.png)
+	
+	如上图所示：需要将a赋值给b并且进行强制转化。因为a在此处是变量，而且需要将存储范围大的类型转换为存储范围小的类型，所以需要用到强制转换。
 
 
 ***
