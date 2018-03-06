@@ -39,7 +39,7 @@ class Solution {
 }
 ```
 
-###解题思路
+### 解题思路
 * 该题使用动态规划，考虑维护两个前一状态变量prevOne和prevTwo;
 * prevOne指前一个元素的cost，prevTwo指前两个元素的cost；
 * prevOne更新为```Math.min(prevOne+cost, prevTwo+cost);```
