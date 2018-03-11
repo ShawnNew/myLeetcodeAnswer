@@ -22,6 +22,7 @@
 
 ### Array
   * [*1. Two Sum*](docs/Two_Sum.md)
+  * [*4. Median of Two Sorted Arrays*](docs/MedianofTwoSortedArrays.md)
   * [*18. 4Sum*](docs/4Sum.md)
   * [*26. Remove Duplicate from Sorted Array*](docs/Remove_Duplicate_from_Sorted_Array.md)
   * [*31. Next Permutation*](docs/Next_Permutation.md)
