@@ -83,6 +83,7 @@
   * [*475. Heaters*](docs/Heaters.md)
 
 ### Dynamic Programming
+  * [*10. Regular Expression Matching*](docs/RegularExpressionMatching.md)
   * [*62. Unique Paths*](docs/Unique_Paths.md)
   * [*63. Unique Paths II*](docs/Unique_PathsII.md)
   * [*64. Minimum Path Sum*](docs/Minimum_Path_Sum.md)
