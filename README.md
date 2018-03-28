@@ -124,6 +124,7 @@
 ### Linked List
   * [*19. Remove Nth Node From End of List*](docs/Remove_Nth_Node_From_End_of_List.md)
   * [*21. Merge Two Sorted Lists*](docs/Merge_Two_Sorted_Lists.md)
+  * [*25. Reverse Nodes in k-Group*](docs/ReverseNodesink-Group.md)
   * [*23. Merge k Sorted Lists*](docs/MergekSortedLists.md)
   * [*83. Remove Duplicates from Sorted List*](docs/Remove_Duplicates_from_Sorted_List.md)
   * [*141. Linked List Cycle*](docs/1Linked_List_Cycle.md)
