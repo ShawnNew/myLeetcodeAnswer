@@ -97,6 +97,7 @@
   * [*133. Clone Graph*](docs/Clone_Graph.md)
   
 ### HashMap
+  * [*30. Substring with Concatenation of All Words*](docs/SubstringwithConcatenationofAllWords.md)
   * [*36. Valid Sudoku*](docs/Valid_Sudoku.md)
   * [*46. Group Anagrams*](docs/Group_Anagrams.md)
   * [*136. Single Number*](docs/Single_Number.md)
