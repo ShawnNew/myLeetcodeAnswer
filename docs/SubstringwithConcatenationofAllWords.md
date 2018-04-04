@@ -62,6 +62,6 @@ class Solution {
 * 使用HashMap辅助解题，HashMap中的key-value分别存如下信息：
 	* key : word
 	* value : 在words数组中每一个词出现的次数
-* 遍历字符串s，在每一位s上，检查后面的wordLen*numWords范围内是否存在匹配；
+* 遍历字符串s，在每一位字符（不超过索引）上判断words的长度是否匹配，检查后面的wordLen*numWords范围内是否存在匹配；
 * 在遍历的过程中对于每一个子字符串所构成的单词，查找其在HashMap中是否存在，并对其在HashMap中进行删除或者count-1操作；
 * 如果出现HashMap为空的情况，则可以将位置索引加入结果的list中。
