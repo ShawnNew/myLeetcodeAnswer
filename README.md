@@ -65,6 +65,7 @@
  
   * [*17. Letter Combinations of a Phone Number*](docs/Letter_Combinations_of_a_Phone_Number.md)
   * [*22. Generate Parentheses*](docs/Generate_Parentheses.md)
+  * [*37. Sudoku Solver*](docs/SudokuSolver.md)
   * [*39. Combination Sum*](docs/Combination_Sum.md)
   * [*40. Combination Sum II*](docs/Combination_SumII.md)
   * [*46. Permutations*](docs/Permutations.md)
