@@ -8,6 +8,7 @@ You may assume that there will be only one unique solution.
 
 ![sudoku](tupian/sudoku.png)
 
+The solution is:
 ![sudoku_solved](tupian/sudoku_solved.png)
 
 ### Code
@@ -32,14 +33,14 @@ class Solution {
         for (int i = row; i < 9; i++, col=0) {
             for (int j = col; j < 9; j++) {
                 if (board[i][j] == '.') {
-                    for (char num = '1'; num <= '9'; num++) { // try the solution space
+                    for (char num = '1'; num <= '9'; num++) { //解空间，从1到9的数
                         if (isValid(board, i, j, num)) {
-                            board[i][j] = num;      // try one solution
-                            if (doSolve(board, i, j+1)) return true; // optimum solution found
-                            else board[i][j] = '.';    // backtrack
+                            board[i][j] = num;      //依次尝试解空间
+                            if (doSolve(board, i, j+1)) return true; //递归找到最优解
+                            else board[i][j] = '.';    //回溯
                         }
                     } 
-                    // all elements done, no optimum solution found
+                    //解空间遍历结束，未找到最优解
                     return false;
                 }
             }
@@ -48,13 +49,12 @@ class Solution {
     }
     
     public boolean isValid(char[][] board, int row, int col, char c) {
-        // Check if it's valid when we want to put one element in a position
-        int rowIndex = 3 * (row/3);
-        int colIndex = 3 * (col/3);
+        //检查在矩阵的某一位加一个元素之后是否有效
+        int rowIndex = 3 * (row/3)， colIndex = 3 * (col/3); //在3*3的块中行列的索引
         for (int i = 0; i < 9; i++) {
-            if (board[row][i] == c) return false;  //check column
-            if (board[i][col] == c) return false;  //check row
-            if (board[rowIndex+i/3][colIndex+i%3] == c) return false;  // check 3*3 block
+            if (board[row][i] == c) return false;  //检查当前行
+            if (board[i][col] == c) return false;  //检查当前列
+            if (board[rowIndex+i/3][colIndex+i%3] == c) return false;  //检查3*3的块
         }
         return true;
     }
