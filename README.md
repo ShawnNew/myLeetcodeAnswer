@@ -210,12 +210,14 @@
   * [*96. Unique Binary Search Trees*](docs/Unique_Binary_Search_Trees.md)
   * [*98. Validate Binary Search Tree*](docs/Validate_Binary_Search_Tree.md)
   * [*100. Same Tree*](Tree/Same_Tree.md)
+  * [*102. Binary Tree Level Order Traversal*](docs/BinaryTreeLevelOrderTraversal)
   * [*103. Binary Tree Zigzag Level Order Traversal*](docs/Binary_Tree_Zigzag_Level_Order_Traversal.md)
   * [*105. Construct Binary Tree from Preorder and Inorder Traversal*](docs/Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.md)
   * [*106. Construct Binary Tree from Inorder and Postorder Traversal*](docs/Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.md)
   * [*108. Convert Sorted Array to Binary Search Tree*](docs/Convert_Sorted_Array_to_Binary_Search_Tree.md)
   * [*110. Balanced Binary Tree*](docs/Balanced_Binary_Tree.md)
   * [*111. Minimum Depth of Binary Tree*](docs/Minimum_Depth_of_Binary_Tree.md)
+  * [*637. Average of Levels in Binary Tree*](docs/AverageofLevelsinBinaryTree.md)
 
   
 ### Two Pointers
