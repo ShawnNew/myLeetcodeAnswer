@@ -201,6 +201,7 @@
   * [*686. Repeated String Match*](docs/Repeated_String_Match.md)
   * [*696. Count Binary Substrings*](docs/Count_Binary_Substrings.md)
   * [*744. Find Smallest Letter Greater Than Target*](docs/Find_Smallest_Letter_Greater_Than_Target.md)
+  * [*796. Rotate String*](docs/RotateString.md)
   
 
   
