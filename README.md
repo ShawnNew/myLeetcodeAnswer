@@ -26,6 +26,7 @@
   * [*18. 4Sum*](docs/4Sum.md)
   * [*26. Remove Duplicate from Sorted Array*](docs/Remove_Duplicate_from_Sorted_Array.md)
   * [*31. Next Permutation*](docs/Next_Permutation.md)
+  * [*41. First Missing Positive*](docs/FirstMissingPositive.md)
   * [*48. Rotate Image*](docs/Rotate_Image.md)
   * [*53. Maximum Subarray*](docs/Maximum_Subarray.md)
   * [*53. Spiral Matrix*](docs/SpiralMatrix.md)
